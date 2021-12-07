@@ -27,3 +27,20 @@ while num <= max:
     if(num % 2 == 0):
         print("{0}" .format(num))
     num = num + 1
+
+    #
+    
+print(" Multiplication Table ")
+
+for i in range(5):
+    for j in range(1, 11):
+        print('{0}  *  {1}  =  {2}'.format(i, j, i*j))
+    print('==============')
+    
+    #
+    
+    maximum = int(input(" Please Enter any Maximum Value : "))
+
+for number in range(1, maximum + 1):
+    if(number % 2 != 0):
+        print("{0}".format(number))
